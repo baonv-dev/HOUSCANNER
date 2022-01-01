@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.btl">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".activity.DoiMatKhau"></activity>
+        <activity
+            android:name=".activity.ViewChartActivity"
+            android:label="Biểu đồ thống kê"
+            android:parentActivityName=".activity.ThongKeActivity" />
+        <activity
+            android:name=".activity.InfoAppActivity"
+            android:label="Thông tin ứng dụng"
+            android:parentActivityName=".activity.MainMenuActivity" />
+        <activity
+            android:name=".activity.DeleteActivity"
+            android:label="Xóa dữ liệu"
+            android:parentActivityName=".activity.MainMenuActivity" />
+        <activity
+            android:name=".activity.AttendanceBarcodeActivity"
+            android:label="Điểm danh BARCODE"
+            android:parentActivityName=".activity.MainMenuActivity" />
+        <activity
+            android:name=".activity.ThongKeActivity"
+            android:label="Thống kê"
+            android:parentActivityName=".activity.MainMenuActivity" />
+        <activity
+            android:name=".activity.QuanLyLopActivity"
+            android:label="Quản lý lớp"
+            android:parentActivityName=".activity.QuanLyHocKyActivity" />
+        <activity
+            android:name=".activity.QuanLySinhVienLopActivity"
+            android:label="Quản lý sinh viên"
+            android:parentActivityName=".activity.QuanLyLopActivity" />
+        <activity
+            android:name=".activity.QuanLyHocKyActivity"
+            android:label="Quản lý học kỳ"
+            android:parentActivityName=".activity.MainMenuActivity" />
+        <activity
+            android:name=".activity.AttendanceManuallyActivity"
+            android:label="Điểm danh thủ công"
+            android:parentActivityName=".activity.AttendanceBarcodeActivity" />
+        <activity
+            android:name=".activity.RegisterAcitvity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+        <activity
+            android:name=".activity.MainMenuActivity"
+            android:label="HOME"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".activity.LoginActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".activity.MainActivity"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

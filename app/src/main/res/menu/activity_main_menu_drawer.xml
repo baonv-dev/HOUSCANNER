@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Trang Chủ" />
+
+        <item
+            android:id="@+id/nav_diemdanh"
+            android:icon="@drawable/ic_assignment_turned_in_black_24dp"
+            android:title="Điểm danh" />
+        <item
+            android:id="@+id/nav_listclass"
+            android:icon="@drawable/ic_people_black_24dp"
+            android:title="Danh sách lớp" />
+        <item
+            android:id="@+id/nav_thongke"
+            android:icon="@drawable/ic_equalizer_black_24dp"
+            android:title="Thống kê" />
+        <item
+            android:id="@+id/nav_xoadulieu"
+            android:icon="@drawable/ic_do_not_disturb_black_24dp"
+            android:title="Xóa dữ liệu" />
+
+    </group>
+
+    <item android:title="Tài khoản">
+        <menu>
+            <item
+                android:id="@+id/nav_thongtincanhan"
+                android:icon="@drawable/icons8_male_user_100"
+                android:title="Thông tin cá nhân" />
+            <!--<item-->
+                <!--android:id="@+id/nav_doimatkhau"-->
+                <!--android:icon="@drawable/ic_people_black_24dp"-->
+                <!--android:title="Đổi mật khẩu" />-->
+            <item
+                android:id="@+id/nav_logout"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Đăng xuất"
+
+                />
+        </menu>
+    </item>
+
+</menu>

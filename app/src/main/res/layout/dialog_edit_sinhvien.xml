@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chỉnh sửa thông tin sinh viên"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:id="@+id/txtTieuDeDialogSinhVien"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã sinh viên"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtMaSinhVien"
+        />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên sinh viên"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtTenSinhVien"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Ngày sinh"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtNgaySinh"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lớp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtLopSinhVien"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Chỉnh sửa"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:id="@+id/btnEditSv"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnCancelSv"
+            />
+
+    </LinearLayout>
+</LinearLayout>

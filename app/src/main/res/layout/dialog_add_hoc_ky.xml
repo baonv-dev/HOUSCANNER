@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Học Kỳ"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        android:id="@+id/txtTieuDeDialogHocKy"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Năm Học"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtNamHoc"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Học Kỳ"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtHocKy"
+
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Thêm"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:id="@+id/btnAdd"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnCancel"
+            />
+        
+    </LinearLayout>
+</LinearLayout>

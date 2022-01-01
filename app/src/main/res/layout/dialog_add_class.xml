@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="13dp"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thêm Lớp"
+        android:textSize="22sp"
+        android:textAlignment="center"
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Mã Lớp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtAddMaLop"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tên Lớp"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtAddTenLop"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Số tín chỉ"
+        android:textSize="20sp"
+        android:layout_margin="10dp"
+        android:id="@+id/txtAddSoTinChi"
+
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Thêm"
+            android:textSize="18sp"
+            android:layout_weight="1"
+            android:textColor="#ffffff"
+            android:id="@+id/btnAddClass"
+            />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/colorPrimary"
+            android:text="Hủy"
+            android:layout_weight="1"
+            android:textSize="18sp"
+            android:textColor="#ffffff"
+            android:id="@+id/btnCancel"
+            />
+
+    </LinearLayout>
+</LinearLayout>
