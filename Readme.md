@@ -1,4 +1,4 @@
-![Đăng ký](https://github.com/baonv-dev/HOUSCANNER/blob/master/images/dangky.jpg?raw=true)
+![Đăng ký](https://github.com/baonv-dev/HOUSCANNER/blob/master/images/dang_ky.jpg?raw=true)
 ![Đăng nhập](https://github.com/baonv-dev/HOUSCANNER/blob/master/images/dang_nhap.jpg?raw=true)
 ![Trang chủ](https://github.com/baonv-dev/HOUSCANNER/blob/master/images/trang_chu.jpg?raw=true)
 ![Quản lý học kỳ](https://github.com/baonv-dev/HOUSCANNER/blob/master/images/quan_ly_hoc_ky.jpg?raw=true)
